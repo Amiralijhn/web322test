@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "tw:build": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css"
+  "tw:build": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css",
+  "postinstall": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css",
+  "start": "node server.js"
 }
 ,
   "keywords": [],
