@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "tw:build": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css",
+  "tw:build": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css",
   "build": "npm run tw:build",
   "start": "node server.js"
 }
